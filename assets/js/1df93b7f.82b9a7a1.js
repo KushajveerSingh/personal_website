@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkpersonal_website=self.webpackChunkpersonal_website||[]).push([[237],{9754:(e,t,n)=>{n.r(t),n.d(t,{default:()=>l});var s=n(7294),i=n(2263),a=n(7961);function l(){const{siteConfig:e}=(0,i.Z)();return s.createElement(a.Z,{title:`${e.title}`,description:"Kushajveer Singh personal website"},s.createElement("main",null,"This is my main page."))}}}]);
