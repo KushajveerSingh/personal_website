@@ -41,6 +41,8 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          path: 'notes',
+          routeBasePath: '/notes',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl: 'https://github.com/KushajveerSingh/personal_website/tree/main/',
@@ -66,21 +68,10 @@ const config = {
       navbar: {
         title: 'Kushajveer Singh',
         items: [
-          {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'left',
-            label: 'Notes',
-          },
+          { to: '/notes', label: 'Notes', position: 'left' },
           { to: '/blog', label: 'Blog', position: 'left' },
           { to: '/projects', label: 'Projects', position: 'left' },
-          { to: '/certifications', label: 'Certifications', position: 'left' },
           { to: '/contact', label: 'Contact', position: 'left' },
-          // {
-          //   href: 'https://github.com/KushajveerSingh/personal_website',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
         ],
       },
       footer: {
@@ -124,16 +115,16 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Contact',
-                href: '/contact',
+                label: 'Blog',
+                href: '/blog',
               },
               {
                 label: 'Projects',
                 href: '/projects',
               },
               {
-                label: 'Certifications',
-                href: '/certifications',
+                label: 'Contact',
+                href: '/contact',
               },
             ],
           },
@@ -143,6 +134,12 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+      },
+      docs: {
+        sidebar: {
+          hideable: true,
+          autoCollapseCategories: true,
+        },
       },
     }),
 };
