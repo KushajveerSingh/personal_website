@@ -82,11 +82,11 @@ const config = {
             items: [
               {
                 label: 'Algorithms',
-                to: '/docs/algorithms',
+                to: '/notes/algorithms',
               },
               {
                 label: 'System Design',
-                to: '/docs/system_design',
+                to: '/notes/system_design',
               },
             ],
           },
