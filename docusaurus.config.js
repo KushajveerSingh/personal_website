@@ -82,7 +82,7 @@ const config = {
             items: [
               {
                 label: 'Algorithms',
-                to: '/notes/algorithms',
+                to: '/notes/algorithms/dsa',
               },
               {
                 label: 'System Design',
